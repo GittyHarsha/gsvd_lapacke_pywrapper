@@ -1,0 +1,1 @@
+recursive-include gsvd *.so *.dylib *.dll

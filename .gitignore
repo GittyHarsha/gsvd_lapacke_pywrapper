@@ -1,0 +1,36 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore compiled shared libraries
+*.so
+*.dll
+*.dylib
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+
+# Ignore compiled C files
+*.o
+*.out
+*.a
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore test binaries (if generated)
+lapack_test
+lapack_test.c
+
+# Ignore environment files (if using virtualenv)
+venv/
+.env
